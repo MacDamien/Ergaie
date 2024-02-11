@@ -67,7 +67,7 @@
 
 ## Statistiques utiles
 
-Quelques statistiques non exhaustifs extraits du json [en+fr](corpus/en+fr.json).
+Quelques statistiques non exhaustives extraites du json [en+fr](corpus/en+fr.json).
 
 ### Digrammes de voyelles
 
