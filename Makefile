@@ -32,3 +32,17 @@ uninstall:
 	@echo
 	xkalamine remove fr/ergol
 	@echo
+
+release:
+	rm -rf dist
+	kalamine make layouts/erglace.toml
+	cp layouts/erglace.toml dist/
+	cp -f dist/erglace.json layouts/erglace.json
+	mv -f dist/erglace.svg img
+	cp -f img/erglace.svg img/erglace_1dk.svg
+	cp -f img/erglace.svg img/erglace_altgr.svg
+	cp -f img/erglace.svg img/erglace_all.svg
+	sed -i 's/iso intlBackslash/ergo ol40/g' img/erglace.svg
+	sed -i 's/iso intlBackslash/ergo ol40 dk/g' img/erglace_1dk.svg
+	sed -i 's/iso intlBackslash/ergo ol40 altgr/g' img/erglace_altgr.svg
+	sed -i 's/iso intlBackslash/ergo ol40 mixed/g' img/erglace_all.svg
