@@ -13,7 +13,7 @@ TL;DR
 * fits on 30 keys for compact keyboards compatibility
 * trades easy access to common shortcuts for full optimization
 * lower SFB and LSB than most previous French layouts
-* for those who are thinking about syllables as word compounds.
+* for those who are thinking about syllables as word compounds
 
 See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](https://discord.gg/RH34GjQEgC) to discuss the layout with us. [Check the stats !][1]
 
