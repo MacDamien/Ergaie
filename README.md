@@ -27,7 +27,7 @@ See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](
 >
 > Au-delà du placement des lettres, Ergaie, comme Erglace a les mêmes fonctionnalités qu'Ergo-L. La couche de symboles est directement reprise de ce dernier.
 >
->Pour tirer le maximum de profit de cette disposition, adopter l’angl-mod (position dactylographique des bras en Λ) et décaler les touches y.-hz d’un cran vers la droite est une suggestion utile. 
+>Pour tirer le maximum de profit de cette disposition, adopter l’angl-mod (position dactylographique des bras en Λ) et décaler les touches y.-hz d’un cran vers la gauche est une suggestion utile. 
 >
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par : 
 – l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
