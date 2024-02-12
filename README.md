@@ -29,12 +29,12 @@ See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](
 >
 >Pour tirer le maximum de profit de cette disposition, adopter l’angl-mod (position dactylographique des bras en Λ) et décaler les touches y.-hz d’un cran vers la gauche est une suggestion utile. 
 >
-> La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par : 
-> – l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
-> – l’inversion s <–> t qui permet : -sp- non sfb,  et -st- vers l’intérieur (plus accessoirement)
-> – l’inversion j <–> y qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you (même sans décalage de la moitié gauche de la 3e rangée (rangée du bas).
-> – Une réorganisation des accents pour mieux se rappeler de leur place.
-> – pour le reste, Ergaie reprends Erglace et profite de beaucoup de mnémotechiques tels que : of, pl(a)c(e), c(o)q, bd, f(ol)k, euh, wx(y) et… j(’)ai()eu.
+> La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
+>> – l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
+>> – l’inversion s <–> t qui permet : -sp- non sfb,  et -st- vers l’intérieur (plus accessoirement)
+>> – l’inversion j <–> y qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you (même sans décalage de la moitié gauche de la 3e rangée (rangée du bas).
+>> – Une réorganisation des accents pour mieux se rappeler de leur place.
+>> – pour le reste, Ergaie reprends Erglace et profite de beaucoup de mnémotechiques tels que : of, pl(a)c(e), c(o)q, bd, f(ol)k, euh, wx(y) et… j(’)ai()eu.
 
 Layout
 --------------------------------------------------------------------------------
