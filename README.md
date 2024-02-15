@@ -1,6 +1,6 @@
 Ergaie 
 ================================================================================
-/!\ Disclaimer : links aren’t functionnal yet.
+/!\ Caveat : links aren’t functionnal yet.
 
 A layout for French, English and programming. It’s a fork of Erglace which is a fork of [ErgEAU](https://github.com/IgrecL/ErgEAU), initially adapted for compact keyboards compatibility. It uses many conventions of [Ergo-L](https://github.com/Nuclear-Squid/ergol).
 
