@@ -33,9 +33,8 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
 >* l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
 >* l’inversion s <–> t qui permet : -sp- non SFB,  et -st- vers l’intérieur (plus accessoirement)
->*l’inversion j <–> y qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you (même sans décalage de la moitié gauche de la 3e rangée (rangée du bas). Le ‑ay‑ n’est pas plus mauvais qu’en Erglace mais plus qu’en Ergo‑L.
+>*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you, si l’on applique un décalage de la moitié gauche de la 3e rangée (rangée du bas).
 >* Une réorganisation des accents pour mieux se rappeler de leur place.
->* pour le reste, Ergaie reprends Erglace et profite de beaucoup de mnémotechiques tels que : of, pl(a)c(e), c(o)q, bd, f(ol)k, euh, wx(y) et… j(’)ai()eu.
 
 Layout
 --------------------------------------------------------------------------------
