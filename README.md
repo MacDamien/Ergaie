@@ -14,18 +14,19 @@ TL;DR
 * fits on 30 keys for compact keyboards compatibility
 * trades easy access to common shortcuts for full optimization
 * lower SFB and LSB than most previous French layouts
-* for those who are thinking about syllables as word compounds
+* lowers mental load in the process of the layout learning
+* easier to learn for newcomers from bépo or Optimot layouts
 
 See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](https://discord.gg/RH34GjQEgC) to discuss the layout with us. [Check the stats !][1]
 
-[1]: https://lysquid.github.io/Erglace/stats#/erglace/ol40/en+fr
+[1]: https://
 
 > La différence avec [Ergo-L](https://ergol.org/) ?
 >
-> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facile au raccourcis usuels (Ctrl+C, Ctrl+V, ...) pour atteindre non pas de meilleurs statistiques en SFB, mais augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique : par exemple, le digramme nc est moins mémorisable que le digramme en. En ce qui concerne les SFB, Erglace est, lui, sous les 1% ! Le SFB correspond aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. Ergaie se satisfait des SFB descendants, car ils vont dans le sens de la préhension et s’enchaînent plutôt bien.
+> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facile au raccourcis usuels (Ctrl+C, Ctrl+V, ...). Mais contrairement à Ergaie, ce n’est pas tant pour optimiser les SFB que pour augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique pour réduire la charge mentale lors de l’apprentissage de la disposition : par exemple, le digramme **nc** est moins utile à la mémorisation que le digramme **en** parce que ce dernier entre en jeu lors de la composition syllabique des mots. En ce qui concerne les SFB, Erglace est, lui, sous les 1% en Français alors qu’Ergaie est à 1,2% ! Le SFB correspond aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. Ergaie se satisfait de statistiques SFB moins bonnes pour privilégier les roulements. Ce sont ces roulements, choisis dans Ergaie en fonction de leur caractère syllabique, qui facilitent l’apprentissage de la disposition. Et ce d’autant plus qu’on a l’habitude d’une disposition avec les voyelles regroupées à gauche.
 >
-> L'autre différence est qu'Ergaie, comme Erglace, cherche à minimiser les redirections, c'est-à-dire les enchaînements de trois caractères d'une même main avec un changement de direction, mouvement considéré comme inconfortable. Pour ce faire, toutes les voyelles se retrouvent d'un côté, comme en Bépo, ce qui favorise l'alternance des mains. Le désavantage est que la disposition a moins de roulements, c'est-à-dire des enchaînements de trois lettres d'une main dans une même direction, qui peuvent être appréciables. (à vérifier)
-Les statistiques sur le corpus commun pour les tests des claviers Ergo indique qu’aucune redirection fâcheuse n’est à signaler !
+> L'autre différence avec Ergoo-L est qu'Ergaie, comme Erglace, cherche à minimiser les redirections, c'est-à-dire les enchaînements de trois caractères d'une même main avec un changement de direction, mouvement considéré comme inconfortable. Pour ce faire, toutes les voyelles se retrouvent d'un côté, comme en Bépo, ce qui favorise l'alternance des mains et les digrammes syllabiques à extension limitée. L’éloignement limité de deux touches qui s’enchaînent est propre à faciliter la rétension du digramme en question.
+Les statistiques sur le corpus commun pour les tests des claviers Ergo indique que peu de redirections fâcheuses sont à signaler !
 >
 > Au-delà du placement des lettres, Ergaie, comme Erglace a les mêmes fonctionnalités qu'Ergo-L. La couche de symboles est directement reprise de ce dernier.
 >
@@ -34,7 +35,7 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
 >* l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
 >* l’inversion s <–> t qui permet : -sp- non SFB,  et -st- vers l’intérieur (plus accessoirement)
->*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you, si l’on applique un décalage de la moitié gauche de la 3e rangée (rangée du bas).
+>*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you.
 >* Une réorganisation des accents pour mieux se rappeler de leur place.
 
 Layout
