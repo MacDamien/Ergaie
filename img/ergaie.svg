@@ -51,7 +51,7 @@
 
   Adding mixed class to main svg tag shows a mixed view with altgr and 1dk layers.
   -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" platform="gnu" theme="reach" class="iso intlBackslash mixed"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" platform="gnu" theme="reach" class="iso intlBackslash mixed>
   <style>
     rect, path {
       stroke: #666;
