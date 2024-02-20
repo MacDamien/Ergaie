@@ -52,11 +52,12 @@
   Adding mixed class to main svg tag shows a mixed view with altgr and 1dk layers.
   -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" platform="gnu" theme="" class="iso intlBackslash">
+  
   <style>
     rect, path {
       stroke: #666;
       stroke-width: .5px;
-      fill: #f8f8f8;
+      fill: #fff;
     }
     .specialKey,
     .specialKey rect,
@@ -71,7 +72,7 @@
     #Backspace text {
       font-size: 12px;
     }
-
+    
     #Escape { display: none; }
 
     #row_AE { transform: translate(4px, 4px); }
