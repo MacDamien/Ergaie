@@ -1,62 +1,12 @@
-<!--
-  How to use this SVG?
-  ====================
+<svg xmlns="http://www.w3.org/2000/svg" class="iso intlBackslash dk"
+     platform="gnu" theme="reach"
+     viewBox="0 0 900 300">
 
-  The layers
-  ++++++++++
-
-  This SVG has 6 layers by key:
-  - layer 1 : No mod
-  - layer 2 : Maj
-  - layer 3 : AltGr
-  - layer 4 : AltGr + Maj
-  - layer 5 (dk) : dk
-  - layer 6 (dk) : dk + Maj
-
-  Layers 5 and 6 correspond to main deadkey. Other deadkeys are not represented.
-
-  Default display
-  +++++++++++++++
-
-  The default display represents layers on a key like this.
-
-  ========
-  | 2  4 |
-  |      |
-  | 1  3 |
-  ========
-
-  AltGr display
-  +++++++++++++
-
-  If `altgr` is added as a class to base `svg` tag, the layers display
-  like default display except layers 3 and 4 are highlighted.
-
-  Deadkey display
-  +++++++++++++++
-
-  Deadkeys are represented as red characters in different layers.
-
-  Adding classes to base `svg` tag replaces layers 3 and 4 with main deadkey
-  layers and highlight them. The keys are represented as:
-
-  ========
-  | 2  6 |
-  |      |
-  | 1  5 |
-  ========
-
-  Mixed display
-  +++++++++++++
-
-  Adding mixed class to main svg tag shows a mixed view with altgr and 1dk layers.
-  -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" platform="gnu" theme="reach" class="iso intlBackslash mixed">
   <style>
     rect, path {
       stroke: #666;
       stroke-width: .5px;
-      fill: #f8f8f8;
+      fill: #fff;
     }
     .specialKey,
     .specialKey rect,
@@ -93,8 +43,8 @@
     .alt #Enter     .alt,
     .iso #Enter     .iso,
     .iso #Backslash .iso { display: block; }
-    .iso #Backslash { transform: translate(765px, 60px); }
-    .alt #Backslash { transform: translate(780px, -60px); }
+    .iso #Backslash,
+    .alt #Backslash { transform: translate(765px, 60px); }
 
     /* Backspace + IntlYen */
     #IntlYen, #Backspace .alt,
@@ -114,16 +64,13 @@
     .intlRo  #ShiftRight .abnt,
     .intlRo  #IntlRo { display: block; }
 
-    .specialKey   .ergo,
-    .specialKey   .ol60,
-    .specialKey   .ol50,
-    .specialKey   .ol40,
-    #Space        .ol60,
-    #Space        .ol50,
-    #Space        .ol40,
-    #Backquote    .ol60,
-    #BracketRight .ol60,
-    #Equal        .ol60,
+    .specialKey .ergo,
+    .specialKey .ol60,
+    .specialKey .ol50,
+    .specialKey .ol40,
+    #Space      .ol60,
+    #Space      .ol50,
+    #Space      .ol40,
     .ergo #CapsLock,
     .ergo #Space      rect,
     .ergo #Backslash  rect,
@@ -131,17 +78,14 @@
     .ergo .specialKey text { display: none; }
     .ol50 #Escape,
     .ol40 #Escape,
-    .ol60 #Space        .ol60,
-    .ol50 #Space        .ol50,
-    .ol40 #Space        .ol40,
-    .ol60 #Backquote    .ol60,
-    .ol60 #BracketRight .ol60,
-    .ol60 #Backslash    .ol60,
-    .ol60 #Equal        .ol60,
-    .ol60 .specialKey   .ol60,
-    .ol50 .specialKey   .ol50,
-    .ol40 .specialKey   .ol40,
-    .ergo .specialKey   .ergo { display: block; }
+    .ol60 #Space      .ol60,
+    .ol50 #Space      .ol50,
+    .ol40 #Space      .ol40,
+    .ol60 #Backslash  .ol60,
+    .ol60 .specialKey .ol60,
+    .ol50 .specialKey .ol50,
+    .ol40 .specialKey .ol40,
+    .ergo .specialKey .ergo { display: block; }
 
     .ol50 .pinkyKey, .ol50 #ContextMenu,
     .ol40 .pinkyKey, .ol40 #ContextMenu,
@@ -152,33 +96,28 @@
     .ergo #row_AC       { transform: translate(49px, 124px); }
     .ergo #row_AB       { transform: translate(19px, 184px); }
 
-    .ergo #Tab          { transform: translate(15px, 0px); }
-    .ergo #ShiftLeft    { transform: translate(60px, 0px); }
-    .ergo #ControlLeft  { transform: translate(75px, 0px); }
+    .ergo #Tab          { transform: translate(30px, 0px); }
+    .ergo #ShiftLeft    { transform: translate(75px, 0px); }
+    .ergo #ControlLeft  { transform: translate(90px, 0px); }
     .ergo #MetaLeft     { transform: translate(150px, 0px); }
     .ergo #AltLeft      { transform: translate(240px, 0px); }
-    .ergo #Space        { transform: translate(315px, 0px); }
+    .ergo #Space        { transform: translate(330px, 0px); }
     .ergo #AltRight     { transform: translate(540px, 0px); }
     .ergo #MetaRight    { transform: translate(630px, 0px); }
     .ergo #ControlRight { transform: translate(750px, 0px); }
 
-    .ergo .left         { transform: translate(-15px, 0px); }
-    .ergo .right        { transform: translate(15px, 0px); }
-
-    .ol60 .left         { transform: translate(-75px, 0px); }
+    .ol60 .left         { transform: translate(-60px, 0px); }
     .ol60 #ControlRight { transform: translate(810px, 0px); }
-    .ol60 #Backquote    { transform: translate(-15px, 0px); }
     .ol60 #ShiftRight   { transform: translate(795px, 0px); }
     .ol60 #ContextMenu  { transform: translate(750px, 0px); }
     .ol60 #Backslash    { transform: translate(690px, 120px); }
-    .ol60 #Backspace    { transform: translate(277.5px, 60px); }
-    .ol60 #Enter        { transform: translate(322.5px, 60px); }
+    .ol60 #Backspace    { transform: translate(300px, 60px); }
+    .ol60 #Enter        { transform: translate(345px, 60px); }
 
-    .ol50 #Escape       { transform: translate(-15px, 0px); }
     .ol50 #Backspace    { transform: translate(660px, 0px); }
     .ol50 #Enter        { transform: translate(705px, -60px); }
 
-    .ol40 #Escape       { transform: translate(-15px, 120px); }
+    .ol40 #Escape       { transform: translate(0px, 120px); }
     .ol40 #Backspace    { transform: translate(660px, 60px); }
     .ol40 #Enter        { transform: translate(705px, 0px); }
 
@@ -261,7 +200,7 @@
     g:target path, .press path {
       fill: #aad;
     }
-    
+
     /*
     [theme="reach"] .pinkyKey  rect { fill: hsl(  0, 100%, 90%); }
     [theme="reach"] .numberKey rect { fill: hsl( 42, 100%, 90%); }
@@ -293,72 +232,32 @@
     }
 
     /* dimmed AltGr + bold dead keys */
-    .level3, .level4 { fill: blue; opacity: .5; }
-    .level5, .level6 { fill: green; display: none }
+    .level3, .level4 { fill: blue; opacity: .4; }
+    .level5, .level6 { fill: green; }
     .deadKey {
       fill: red;
-      font-size: 14px;
+      font-size: 16px;
+      transform: translateY(-3px);
     }
     .diacritic  {
-      font-size: 20px;
+      font-size: 24px;
       font-weight: bolder;
+      transform: translateY(8px);
     }
 
     /* hide Level4 (Shift+AltGr) unless AltGr is pressed */
     .level4        { display: none; }
     .altgr .level4 { display: block; }
 
-    /* highlight AltGr + Dead Keys */
+    /* highlight AltGr + Dead Keys
     .dk .level1, .altgr .level1,
-    .dk .level2, .altgr .level2 { opacity: 0.25; display: block; }
+    .dk .level2, .altgr .level2 { opacity: 0.25; }
     .dk .level5, .altgr .level3,
-    .dk .level6, .altgr .level4,
-    .mixed .level3, .mixed .level5 { opacity: 1; display: block;}
-    .dk .level3, .dk .level4,
-    .mixed .level4, .mixed .level6 { display: none; }
-
-    /* Translate level5 upward if mixed */
-    .mixed .level5 {transform: translate(0px, -22.8px);}
-
-    /* Adding Base class option to display Alpha + dk layers */
-    .base .level3, .base .level4 { display: none;}
-    .base .level5  { opacity: 0.5; display: block;}
-
-    @media (prefers-color-scheme: dark) {
-      rect, path { stroke: #777; fill: #444; }
-      .specialKey, .specialKey rect, .specialKey path { fill: #333; }
-      g:target rect, .press rect, g:target path, .press path { fill: #558; }
-      text { fill: #999; }
-      .level3, .level4 { fill: #99f; }
-      .level5, .level6 { fill: #6d6; }
-      .deadKey { fill: #f44; }
-
-      [theme="reach"] .pinkyKey  rect { fill: hsl(  0, 60%, 25%); }
-      [theme="reach"] .numberKey rect { fill: hsl( 42, 60%, 27%); }
-      [theme="reach"] .letterKey rect { fill: hsl(122, 75%, 20%); }
-      [theme="reach"] .homeKey   rect { fill: hsl(122, 70%, 25%); }
-      [theme="reach"] .press     rect { fill: #449; }
-
-      [theme="hints"] [finger="m1"] rect { fill: hsl(  0, 100%, 95%); }
-      [theme="hints"] [finger="l2"] rect { fill: hsl( 42, 100%, 85%); }
-      [theme="hints"] [finger="r2"] rect { fill: hsl( 61, 100%, 85%); }
-      [theme="hints"] [finger="l3"] rect,
-      [theme="hints"] [finger="r3"] rect { fill: hsl(136, 100%, 85%); }
-      [theme="hints"] [finger="l4"] rect,
-      [theme="hints"] [finger="r4"] rect { fill: hsl(200, 100%, 85%); }
-      [theme="hints"] [finger="l5"] rect,
-      [theme="hints"] [finger="r5"] rect { fill: hsl(230, 100%, 85%); }
-      [theme="hints"] .specialKey   rect,
-      [theme="hints"] .specialKey   path { fill: #e4e4e4; }
-      [theme="hints"] .hint         rect { fill: #a33; }
-      [theme="hints"] .press        rect { fill: #335; }
-      [theme="hints"] .press        text { fill: #fff; }
-      [theme="hints"] .hint text {
-        font-weight: bold;
-        fill: white;
-      }
-    }
-  </style>
+    .dk .level6, .altgr .level4 { opacity: 1; }
+    */
+    .dk .level3,
+    .dk .level4 { display: none; }
+</style>
   <g id="row_AE" text-anchor="middle">
     <g class="left">
       <g class="specialKey" finger="l5" id="Escape" transform="translate(0, 0)">
@@ -385,7 +284,7 @@
         <rect class="" width="52" height="52" rx="5" ry="5"/>
         <g class="key">
           <text class="level1" width="22" height="22" x="12.8" y="43.4">1</text>
-          <text class="level2" width="22" height="22" x="12.8" y="20.6">!</text>
+          <text class="level2" width="22" height="22" x="12.8" y="20.6">€</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">₁</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">¹</text>
           <text class="level5 dk" width="22" height="22" x="38" y="43.4">¡</text>
@@ -399,8 +298,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">@</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">₂</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">²</text>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4">«</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6">“</text>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">“</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6">«</text>
         </g>
       </g>
       <g class="numberKey" finger="l4" id="Digit3" transform="translate(180, 0)">
@@ -410,8 +309,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">#</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">₃</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">³</text>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4">»</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6">”</text>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">”</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6">»</text>
         </g>
       </g>
       <g class="numberKey" finger="l3" id="Digit4" transform="translate(240, 0)">
@@ -558,7 +457,7 @@
           <text class="level3" width="22" height="22" x="38" y="43.4">&lt;</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">≤</text>
           <text class="level5 dk deadKey diacritic" width="22" height="22" x="38" y="43.4">¨</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6">„</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
         </g>
       </g>
       <g class="letterKey" finger="l3" id="KeyE" transform="translate(210, 0)">
@@ -781,8 +680,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">S</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">-</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">—</text>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4">ï</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6">Ï</text>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">(</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
         </g>
       </g>
       <g class="letterKey homeKey" finger="r4" id="KeyL" transform="translate(585, 0)">
@@ -792,7 +691,7 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">R</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">/</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">÷</text>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4"/>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">)</text>
           <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
         </g>
       </g>
@@ -868,8 +767,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">Y</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">[</text>
           <text class="level4" width="22" height="22" x="38" y="20.6"/>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4"/>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">ï</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6">Ï</text>
         </g>
       </g>
       <g class="letterKey" finger="l3" id="KeyC" transform="translate(255, 0)">
@@ -890,8 +789,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">H</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">_</text>
           <text class="level4" width="22" height="22" x="38" y="20.6">–</text>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4">(</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">ë</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6">Ë</text>
         </g>
       </g>
       <g class="letterKey" finger="l2" id="KeyB" transform="translate(375, 0)">
@@ -901,8 +800,8 @@
           <text class="level2" width="22" height="22" x="12.8" y="20.6">Z</text>
           <text class="level3" width="22" height="22" x="38" y="43.4">#</text>
           <text class="level4" width="22" height="22" x="38" y="20.6"/>
-          <text class="level5 dk" width="22" height="22" x="38" y="43.4">)</text>
-          <text class="level6 dk" width="22" height="22" x="38" y="20.6"/>
+          <text class="level5 dk" width="22" height="22" x="38" y="43.4">ü</text>
+          <text class="level6 dk" width="22" height="22" x="38" y="20.6">Ü</text>
         </g>
       </g>
     </g>
@@ -1057,3 +956,4 @@
     </g>
   </g>
 </svg>
+
