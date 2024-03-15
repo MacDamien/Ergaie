@@ -89,13 +89,13 @@ install keyboard layouts on Linux. You can drop `sudo` if you use wayland, but
 it’s required on Xorg.
 
 ```bash
-sudo xkalamine install ergaie.toml  # Install the layout
+sudo xkalamine install ergueia.toml  # Install the layout
 ```
 
 Then switch to Ergaie using the following command:
 
 ```bash
-setxkbmap fr -variant ergaie  # Switch your keyboard layout to ergaie
+setxkbmap fr -variant ergueia  # Switch your keyboard layout to ergueia
 ```
 
 Make Your Own !
