@@ -37,7 +37,8 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 >*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you.
 >* Une réorganisation des accents pour mieux se rappeler de leur place.
 >  
-> Vous allez peut-être aimer : ai, aie, eu, ay, ei, ie, ea, oi, ou,… he, of, sp, st, rs, mp, mb, nc, ld, ieu, jeu, jou, j’ai, you
+> Vous allez peut-être aimer : ai, aie, eu, ay, ei, ie, ea, oi, ou,… he, of, sp, st, rs, mp, mb, nc, ld, ieu, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier.
+
 
 Layout
 --------------------------------------------------------------------------------
