@@ -1,6 +1,6 @@
 Ergaie
 ================================================================================
-/!\ Caveat : links aren’t functionnal yet.
+/!\ Caveat : not all links are yet functionnal.
 
 A layout for French, English and programming. It’s a fork of Erglace which is a fork of [ErgEAU](https://github.com/IgrecL/ErgEAU), initially adapted for compact keyboards compatibility. It uses many conventions of [Ergo-L](https://github.com/Nuclear-Squid/ergol).
 I reproduce here the main caracteristics of the Erglace Layout, but please refer to the main branch [Erglace](https://github.com/Lysquid/Erglace)
@@ -12,10 +12,11 @@ TL;DR
 * uses a dead key for the most frequent accented characters
 * uses the AltGr layer for programming symbols
 * fits on 30 keys for compact keyboards compatibility
-* trades easy access to common shortcuts for full optimization
+* trades easy access to common shortcuts for full optimization (A and Z on the right side)
 * lower SFB and LSB than most previous French layouts
 * lowers mental load in the process of the layout learning
-* easier to learn for newcomers from bépo or Optimot layouts
+* equilibrated load for both hands (49 % / 51 %)
+* easier to learn for newcomers from bépo or Optimot layouts with the vowels aside (even more in its mirrored version)
 
 See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](https://discord.gg/RH34GjQEgC) to discuss the layout with us. [Check the stats !][1]
 
@@ -23,10 +24,10 @@ See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](
 
 > La différence avec [Ergo-L](https://ergol.org/) ?
 >
-> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facile au raccourcis usuels (Ctrl+C, Ctrl+V, ...). Ergaie, cherche à réduire les SFB ne à augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique pour réduire la charge mentale lors de l’apprentissage de la disposition : par exemple, le digramme **nc** est moins utile à la mémorisation que le digramme **ai** parce que ce dernier entre en jeu lors de la composition syllabique des mots. Les SFB correspondent aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. Les voyelles sont regroupées à droite plutôt qu’à gauche pour garder les raccourcis courants sous la main gauche (manquent Ctrl‑Z et Ctrl‑A). 
+> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facilité aux raccourcis usuels (Ctrl+A, Ctrl+Z) à gauche. Ergaie, cherche à réduire les SFB et à augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique pour réduire la charge mentale lors de la phase d’apprentissage de la disposition losqu’on est habitué à une disposition de type Dvorak comme le Bépo : par exemple, les digramme **nc**, **rd** sont moins utiles à la mémorisation que les digrammes **ai** **pl** **qu** parce que ces derniers entrent en jeu lors de la composition syllabique des mots. Les SFB correspondent aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. Les voyelles sont regroupées à droite plutôt qu’à gauche pour garder les raccourcis courants sous la main gauche (manquent Ctrl‑Z et Ctrl‑A). 
 >
 > L'autre différence avec Ergo-L est qu'Ergaie, comme Erglace, cherche à minimiser les redirections, c'est-à-dire les enchaînements de trois caractères d'une même main avec un changement de direction, mouvement considéré comme inconfortable. Pour ce faire, toutes les voyelles se retrouvent d'un côté, comme en Bépo, ce qui favorise l'alternance des mains et les digrammes syllabiques à extension limitée. L’éloignement limité de deux touches qui s’enchaînent est propre à faciliter la rétention du digramme en question.
-Les statistiques sur le corpus commun pour les tests des claviers Ergo indique que très peu de redirections fâcheuses sont à signaler !
+Les statistiques sur le corpus commun pour les tests des claviers Ergo indique que seulement 2 redirections fâcheuses sont à signaler pour 0,01 % : `ie. / rms / joi` !
 >
 > Au-delà du placement des lettres, Ergaie, comme Erglace a les mêmes fonctionnalités qu'Ergo-L. La couche de symboles est directement reprise de ce dernier.
 >
@@ -34,10 +35,10 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 >
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
 >* l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
->*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer le you.
->* Une réorganisation des accents pour mieux se rappeler de leur place.
+>*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer trop le `you` qui reste agréable quand il est à droite sur un clavier décalé ou sur un clavier ortholinéaire.
+>* Une réorganisation des accents pour mieux se rappeler de leur place ou améliorer leur enchaîenement.
 >  
-> Vous allez peut-être aimer : ai, aie, eu, ay, ei, ie, ea, oi, ou,… he, of, sp, st, rs, mp, mb, nc, ld, ieu, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier.
+> Vous allez peut-être aimer : ai, aie, eu, ay, ei, ie, ea, oi, ou,… he, of, sp, st, rs, mp, mb, nc, ld, ieu, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier).
 
 
 Layout
