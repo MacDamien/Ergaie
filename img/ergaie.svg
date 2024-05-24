@@ -392,7 +392,7 @@
           <text x="38.0" y="43.4" class="level3">₇</text>
           <text x="38.0" y="20.6" class="level4">⁷</text>
           <text x="38.0" y="43.4" class="level5">¤</text>
-          <text x="38.0" y="20.6" class="level6">¡</text>
+          <text x="38.0" y="20.6" class="level6" />
         </g>
       </g>
       <g class="numberKey" finger="r3" id="Digit8" transform="translate(480)">
@@ -403,7 +403,7 @@
           <text x="38.0" y="43.4" class="level3">₈</text>
           <text x="38.0" y="20.6" class="level4">⁸</text>
           <text x="38.0" y="43.4" class="level5">€</text>
-          <text x="38.0" y="20.6" class="level6" />
+          <text x="38.0" y="20.6" class="level6">¡</text>
         </g>
       </g>
       <g class="numberKey" finger="r4" id="Digit9" transform="translate(540)">
@@ -557,7 +557,7 @@
           <text x="12.8" y="20.6" class="level2">F</text>
           <text x="38.0" y="43.4" class="level3">&amp;</text>
           <text x="38.0" y="20.6" class="level4" />
-          <text x="38.0" y="43.4" class="level5">!</text>
+          <text x="38.0" y="43.4" class="level5">â</text>
           <text x="38.0" y="20.6" class="level6" />
         </g>
       </g>
@@ -568,7 +568,7 @@
           <text x="12.8" y="20.6" class="level2">O</text>
           <text x="38.0" y="43.4" class="level3">*</text>
           <text x="38.0" y="20.6" class="level4">×</text>
-          <text x="38.0" y="43.4" class="level5">â</text>
+          <text x="38.0" y="43.4" class="level5">!</text>
           <text x="38.0" y="20.6" class="level6" />
         </g>
       </g>
