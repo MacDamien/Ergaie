@@ -24,10 +24,10 @@ See the [design notes](NOTES.md) for the details, and join the [Ergo-L discord](
 
 > La différence avec [Ergo-L](https://ergol.org/) ?
 >
-> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facilité aux raccourcis usuels (Ctrl+A, Ctrl+Z) à gauche. Ergaie, cherche à réduire les SFB et à augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique pour réduire la charge mentale lors de la phase d’apprentissage de la disposition losqu’on est habitué à une disposition de type Dvorak comme le Bépo : par exemple, les digramme **nc**, **rd** sont moins utiles à la mémorisation que les digrammes **ai** **pl** **qu** parce que ces derniers entrent en jeu lors de la composition syllabique des mots. Les SFB correspondent aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. Les voyelles sont regroupées à droite plutôt qu’à gauche pour garder les raccourcis courants sous la main gauche (manquent Ctrl‑Z et Ctrl‑A). 
+> Ergaie, dans la droite ligne d’Erglace abandonne l'accès facilité à tous les raccourcis usuels à gauche, mais au final, seuls le A et le Z étant à droite manquent. Ergaie, comme Erglace, cherche à réduire les SFB (Single Finger Bigramme). Les SFB correspondent aux enchaînements de deux caractères qui utilisent le même doigt, ce qui ralentit la vitesse de frappe. L’idée à l’origine du design d’Ergaie était d’augmenter la présence de motifs mieux mémorisables basés sur la composition syllabique pour réduire la charge mentale lors de la phase d’apprentissage de la disposition losqu’on est habitué à une disposition de type Dvorak comme le Bépo : par exemple. les digrammes **nc**, **rd** sont moins utiles à la mémorisation que les digrammes **ai** **eu** **oi** parce que ces derniers entrent en jeu lors de la composition syllabique des mots. Le principe est de garder les digrammes fréquents sur des touches proches pour créer des mini-roulenments qui engendrent des roulements (3 lettres) : **yeu** **ieu** **aie** **jou** **jeu** **foi** **you**. Les voyelles sont regroupées à droite plutôt qu’à gauche pour garder les raccourcis courants sous la main gauche.
 >
 > L'autre différence avec Ergo-L est qu'Ergaie, comme Erglace, cherche à minimiser les redirections, c'est-à-dire les enchaînements de trois caractères d'une même main avec un changement de direction, mouvement considéré comme inconfortable. Pour ce faire, toutes les voyelles se retrouvent d'un côté, comme en Bépo, ce qui favorise l'alternance des mains et les digrammes syllabiques à extension limitée. L’éloignement limité de deux touches qui s’enchaînent est propre à faciliter la rétention du digramme en question.
-Les statistiques sur le corpus commun pour les tests des claviers Ergo indique que seulement 2 redirections fâcheuses sont à signaler pour 0,01 % : `ie. / joi` !
+Les statistiques sur le corpus commun pour les tests des claviers Ergo indique que seulement 2 redirections fâcheuses sont à signaler pour 0,07 % : `ie. / joi` et `rms / yea / joy`!
 >
 > Au-delà du placement des lettres, Ergaie, comme Erglace a les mêmes fonctionnalités qu'Ergo-L. La couche de symboles est directement reprise de ce dernier.
 >
@@ -36,9 +36,8 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
 >* l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
 >*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer trop le `you` qui reste agréable quand il est à droite sur un clavier décalé ou sur un clavier ortholinéaire.
->* Une réorganisation des accents pour mieux se rappeler de leur place ou améliorer leur enchaîenement.
 >  
-> Vous allez peut-être aimer : ai, aie, eu, ay, ei, ie, ea, oi, ou,… he, of, sp, st, rs, mp, mb, nc, ld, ieu, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier).
+> Vous allez peut-être aimer : ai, aie, ieu, eu, ay, ei, ie, ea, oi, ou,… ng, gn, he, of, sp, st, rs, mp, mb, nc, ld, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier).
 
 
 Layout
@@ -47,7 +46,7 @@ Layout
 ![base layout](img/ergaie.svg)
 
 The dead key <kbd>★</kbd> gives access to all accented letters you’ll need to write in proper French:
-
+ 
 ![dead key layout](img/ergaie_1dk.svg)
 
 … and the AltGr layer is fully dedicated to programming symbols.
