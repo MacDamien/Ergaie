@@ -31,11 +31,11 @@ Les statistiques sur le corpus commun pour les tests des claviers Ergo indique q
 >
 > Au-delà du placement des lettres, Ergaie, comme Erglace a les mêmes fonctionnalités qu'Ergo-L. La couche de symboles est directement reprise de ce dernier.
 >
->Pour tirer le maximum de profit de cette disposition, adopter l’angl-mod (position dactylographique des bras en Λ) et décaler les touches y.-hz d’un cran vers la gauche est une suggestion utile, comme elle semble l’être pour toutes les dispositions Ergo.
+>Pour tirer le maximum de profit de cette disposition, adopter l’angle-mode (position dactylographique des bras en Λ) et décaler les touches `xgmp` d’un cran vers la gauche est une suggestion utile, comme elle semble l’être pour toutes les dispositions Ergo.
 >
 > La différence d’Ergaie avec Erglace tient essentiellement à la facilitation des motifs vocaliques du français par :
 >* l’inversion a <–> i qui permet : ai vers l’intérieur,  -aie- est simplifié ainsi que -ie- -ieu-, rapproche le -oi-
->*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique), plus simple sans abîmer trop le `you` qui reste agréable quand il est à droite sur un clavier décalé ou sur un clavier ortholinéaire.
+>*l’inversion j <–> y (et le décalage de y) qui permet : un j’ (apostrophe typographique) plus simple sans abîmer trop le `you` qui reste agréable quand il est à droite sur un clavier décalé ou sur un clavier ortholinéaire.
 >  
 > Vous allez peut-être aimer : ai, aie, ieu, eu, ay, ei, ie, ea, oi, ou,… ng, gn, he, of, sp, st, rs, mp, mb, nc, ld, jeu, jou, où, j’ai, you (mais certains n’aiment pas ce dernier).
 
