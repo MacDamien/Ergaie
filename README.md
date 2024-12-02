@@ -53,7 +53,7 @@ The dead key <kbd>★</kbd> gives access to all accented letters you’ll need t
 
 ![altgr layout](img/ergaie_altgr.svg)
 
-[Try it out!](in attempt)
+[Try it out!](https://ergol.org/dactylo/#ergaie)
 
 Install
 --------------------------------------------------------------------------------
