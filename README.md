@@ -103,7 +103,7 @@ Miror version
 
 This miror version could be useful for people who are accustomated to the dvorak like dispositions with vowels on the left.
 You then loose the shortcuts on the left.
-[5]: [Ergaie_miroir](layouts/ergaie_miroir.toml)
+[Ergaie_miroir](layouts/ergaie_miroir.toml)
 
 Make Your Own !
 --------------------------------------------------------------------------------
