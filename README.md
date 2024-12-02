@@ -101,9 +101,8 @@ setxkbmap fr -variant ergaie  # Switch your keyboard layout to ergaie
 Miror version
 --------------------------------------------------------------------------------
 
-This miror version could be useful for people who are accustomated to the dvorak like dispositions with vowels on the left.
+This [Ergaie_miroir](layouts/ergaie_miroir.toml) version could be useful for people who are accustomated to the dvorak like dispositions with vowels on the left.
 You then loose the shortcuts on the left.
-[Ergaie_miroir](layouts/ergaie_miroir.toml)
 
 Make Your Own !
 --------------------------------------------------------------------------------
